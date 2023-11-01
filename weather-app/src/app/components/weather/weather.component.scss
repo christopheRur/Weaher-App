@@ -1,0 +1,52 @@
+
+nav{
+  text-align: center;
+  padding: 3%;
+  font-size: xx-large;
+  color: white;
+}
+.cell{
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin: 0;
+  background-color: #dfff2d;
+}
+.weather-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.weather-card:hover{
+  padding: 50px;
+  box-shadow: 0 8px 16px rgba(241, 25, 245, 0.4);
+}
+
+.weather-icon {
+  font-size: 48px;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.location {
+  font-size: 24px;
+}
+
+.location:hover{
+  font-size: xx-large;
+
+
+}
